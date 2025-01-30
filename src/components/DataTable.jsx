@@ -110,16 +110,16 @@ const DynamicTable = () => {
                   {team.name}
                 </td>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  {team.phoneNumber}
+                  {team.phone}
                 </td>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  {team.whatsappNumber}
+                  {team.whatsapp}
                 </td>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
                   {team.email}
                 </td>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  {team.collegeName}
+                  {team.college}
                 </td>
               </tr>
             ))
