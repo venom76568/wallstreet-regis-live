@@ -30,10 +30,10 @@ const DynamicTable = () => {
     ];
     const rows = data.map((team) => [
       team.name,
-      team.phoneNumber,
-      team.whatsappNumber,
+      team.phone,
+      team.whatsapp,
       team.email,
-      team.collegeName,
+      team.college,
     ]);
 
     const csvContent = [
